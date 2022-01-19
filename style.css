@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.switch {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.topound {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.topound:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.topound:active {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.convert-btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.convert-btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.convert-btn:active {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/*# sourceMappingURL=style.css.map */
